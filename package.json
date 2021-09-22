@@ -2,9 +2,9 @@
   "name": "custom-strapi-ckeditor",
   "author": "Muhammad Aqib",
   "description": "A custom CKEditor 5 build.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "SEE LICENSE IN LICENSE.md",
-  "private": true,
+  "private": false,
   "main": "./build/ckeditor.js",
   "devDependencies": {
     "@ckeditor/ckeditor5-adapter-ckfinder": "^29.2.0",
@@ -41,5 +41,13 @@
   },
   "scripts": {
     "build": "webpack --mode production"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammada86/custom-strapi-ckEditor.git"
+  },
+  "bugs": {
+    "url": "git+https://github.com/muhammada86/custom-strapi-ckEditor/issues"
+  },
+  "homepage": "https://github.com/muhammada86/custom-strapi-ckEditor#readme"
 }
